@@ -7,10 +7,20 @@ The repository is the official PyTorch implementation of the paper:
 "Synthetic CT Skull Generation for Transcranial MR Imaging–Guided Focused Ultrasound Interventions with Conditional Adversarial Networks"
 The paper link is https://arxiv.org/abs/2202.10136
 
-Our jounal version "Evaluation of Synthetically Generated CT for use in Transcranial
+The jounal version "Evaluation of Synthetically Generated CT for use in Transcranial
 Focused Ultrasound Procedures" is currently under review. The pre-print version is available at https://arxiv.org/pdf/2210.14775.pdf, where you will find out more details in implementation and in-depth result analysis.
 
-If you use this code, please cite our works, the references are
+If you use this code or find this repo is useful to your research, please consider citing our works. The references are:
+
+```
+@article{liu2022evaluation,
+  title={Evaluation of Synthetically Generated CT for use in Transcranial Focused Ultrasound Procedures},
+  author={Liu, Han and Sigona, Michelle K and Manuel, Thomas J and Chen, Li Min and Dawant, Benoit M and Caskey, Charles F},
+  journal={arXiv preprint arXiv:2210.14775},
+  year={2022}
+}
+```
+
 ```
 @inproceedings{liu2022synthetic,
   title={Synthetic CT skull generation for transcranial MR imaging--guided focused ultrasound interventions with conditional adversarial networks},
@@ -20,14 +30,6 @@ If you use this code, please cite our works, the references are
   pages={135--143},
   year={2022},
   organization={SPIE}
-}
-```
-```
-@article{liu2022evaluation,
-  title={Evaluation of Synthetically Generated CT for use in Transcranial Focused Ultrasound Procedures},
-  author={Liu, Han and Sigona, Michelle K and Manuel, Thomas J and Chen, Li Min and Dawant, Benoit M and Caskey, Charles F},
-  journal={arXiv preprint arXiv:2210.14775},
-  year={2022}
 }
 ```
 
