@@ -56,10 +56,12 @@ python train.py --dataroot . --model han_pix2pix --input_nc 1 --output_nc 1 --di
 As reported in the paper, the optimal performance was achieved on our validation set using hyperparameters of lambda_L1=100 and lambda_Edge=10.
 
 ## Testing
+Two arguments are required (1) input_dir: this specifies where you put your input MR images (in the format of .nii or .nii.gz), and (2) output_dir: a folder to store the output synthetic CTs; this can be a new folder. Optionally, you can adjust the overlapping ratio in the sliding window inference function (default is 0.6). Higher overlapping ratio typically produces better synthetic images, but needs longer inference time. 
+
+Example:
 ```shell script
-python run_inference.py
+python run_inference.py --input_dir ./test --output_dir ./output --overlap_ratio 0.6
 ```
-You can adjust the overlapping ratio in the sliding window inference function (default is 0.6). Higher overlapping ratio typically produces better synthetic images, but needs longer inference time. 
 
 ## Docker (use our code as out-of-box tool!) 
 
