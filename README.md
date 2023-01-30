@@ -75,3 +75,6 @@ docker run --gpus all --rm -v [input_directory]:/input/:ro -v [output_directory]
 where
 * input_directory is the directory where you put your input MR images (.nii or .nii.gz).
 * output_directory is the directory where you will see your output files (synthesized CT images).
+
+## Acknowledgement
+Our code is adapted from the [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repo.
