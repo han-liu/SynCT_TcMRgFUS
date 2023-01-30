@@ -59,7 +59,7 @@ As reported in the paper, the optimal performance was achieved on our validation
 ```shell script
 python run_inference.py
 ```
-You can adjust the overlapping ratio in the sliding window inference function. Higher overlapping ratio typically produces better synthetic images, but needs longer inference time. 
+You can adjust the overlapping ratio in the sliding window inference function (default is 0.6). Higher overlapping ratio typically produces better synthetic images, but needs longer inference time. 
 
 ## Docker (use our code as out-of-box tool!) 
 
