@@ -21,7 +21,8 @@ If you use this code, please cite our works, the references are
   year={2022},
   organization={SPIE}
 }
-
+```
+```
 @article{liu2022evaluation,
   title={Evaluation of Synthetically Generated CT for use in Transcranial Focused Ultrasound Procedures},
   author={Liu, Han and Sigona, Michelle K and Manuel, Thomas J and Chen, Li Min and Dawant, Benoit M and Caskey, Charles F},
@@ -57,13 +58,16 @@ conda activate DL
 python run_inference.py
 ```
 
-## docker (use our code as out-of-box tool) 
+## Docker (use our code as out-of-box tool!) 
 
 dockerhub: liuh26/syn_ct
-how to use:
+
+### how to use:
 1. download Docker and NVIDIA Container Toolkit.
 2. make inference with the following command:
-  `docker run --gpus all --rm -v [input_directory]:/input/:ro -v [output_directory]:/output -it syn_ct`
+```shell script
+docker run --gpus all --rm -v [input_directory]:/input/:ro -v [output_directory]:/output -it syn_ct
+```
 
 where
 * input_directory is the directory where you put your input MR images (.nii or .nii.gz).
