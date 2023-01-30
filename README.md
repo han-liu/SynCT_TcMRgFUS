@@ -36,13 +36,9 @@ If you have any questions, feel free to contact han.liu@vanderbilt.edu or open a
 * NVIDIA GPU + CUDA + cuDNN
 
 ## Installation
-We suggest installing the dependencies using Anaconda
-* create the environment
+* create conda environment and install dependencies
 ```shell script
 conda create --name synct python=3.8
-```
-* Install PyTorch and other dependencies:
-```shell script
 conda activate synct
 pip install -r requirements.txt
 pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/torch_stable.html
