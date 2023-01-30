@@ -47,16 +47,15 @@ pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f 
 
 ## Training and Validation
 ```shell script
-conda activate synct
 python train.py --dataroot . --model han_pix2pix --input_nc 1 --output_nc 1 --direction AtoB --netG resnet_9blocks --display_id 0 --print_freq 20 --n_epochs 3000 --n_epochs_decay 3000 --save_epoch_freq 100 --training_mode cGAN --name synct --lambda_L1 100 --lambda_Edge 10
 ```
 As reported in the paper, the optimal performance was achieved on our validation set using hyperparameters of lambda_L1=100 and lambda_Edge=10.
 
 ## Testing
 ```shell script
-conda activate DL
 python run_inference.py
 ```
+You can adjust the overlapping ratio in the sliding window inference function. Higher overlapping ratio typically produces better synthetic images, but needs longer inference time. 
 
 ## Docker (use our code as out-of-box tool!) 
 
