@@ -4,7 +4,7 @@
 # SynCT_TcMRgFUS
 
 The repository is the official PyTorch implementation of the paper:
-"Synthetic CT Skull Generation for Transcranial MR Imaging–Guided Focused Ultrasound Interventions with Conditional Adversarial Networks"
+"Synthetic CT Skull Generation for Transcranial MR Imaging–Guided Focused Ultrasound Interventions with Conditional Adversarial Networks".
 The paper link is https://arxiv.org/abs/2202.10136
 
 The jounal version "Evaluation of Synthetically Generated CT for use in Transcranial
