@@ -10,7 +10,7 @@ The paper link is https://arxiv.org/abs/2202.10136
 The jounal version "Evaluation of Synthetically Generated CT for use in Transcranial
 Focused Ultrasound Procedures" is currently under review. The pre-print version is available at https://arxiv.org/pdf/2210.14775.pdf, where you will find out more details in implementation and in-depth result analysis.
 
-If you find our repo is useful to your research, please consider citing our works:
+If you find our repo useful to your research, please consider citing our works:
 
 ```
 @article{liu2022evaluation,
@@ -60,7 +60,9 @@ You can adjust the overlapping ratio in the sliding window inference function. H
 ## Docker (use our code as out-of-box tool!) 
 
 dockerhub: 
-```liuh26/syn_ct```
+```shell script
+liuh26/syn_ct
+```
 
 ### how to use:
 1. download Docker and NVIDIA Container Toolkit.
