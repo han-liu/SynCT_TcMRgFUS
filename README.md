@@ -9,7 +9,7 @@ The repository is the official PyTorch implementation of the [paper](https://arx
 The jounal version "Evaluation of Synthetically Generated CT for use in Transcranial
 Focused Ultrasound Procedures" is currently under review. The preprint version is available [here](https://arxiv.org/pdf/2210.14775.pdf), where you will find out more details in implementation and in-depth result analysis.
 
-![Alt text](https://github.com/han-liu/SynCT_TcMRgFUS/blob/main/vis.png?raw=true)
+<img src="https://github.com/han-liu/SynCT_TcMRgFUS/blob/main/vis.png?raw=true" alt="vis" width="200"/>
 
 If you find our repo useful to your research, please consider citing our works:
 
