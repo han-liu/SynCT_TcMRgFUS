@@ -61,11 +61,11 @@ As reported in the paper, the optimal performance was achieved on our validation
 ## Testing
 Two arguments are required (1) input_dir: this specifies where you put your input MR images (in the format of .nii or .nii.gz), and (2) output_dir: a folder to store the output synthetic CTs; this can be a new folder. Optionally, you can adjust the overlapping ratio in the sliding window inference function (default is 0.6). Higher overlapping ratio typically produces better synthetic images, but needs longer inference time. 
 
-We provide an example MRI image [[click to download]](https://drive.google.com/file/d/1wW-MWanj74CYhpgUej0AwPPxD2h60fQq/view?usp=share_link) and our trained model [[click to download]](https://drive.google.com/file/d/1BpPVHtn5MUYQCleITXrkenhD7ZY3yYHb/view?usp=share_link). To reproduce our experimental result on the example MRI, please (1) create a folder `/src/checkpoints/jmi` and put the dwonloaded model checkpoint here, and (2) download the example MRI and put it in a folder (input_dir).
+We provide an example MRI image [[click to download]](https://drive.google.com/file/d/1wW-MWanj74CYhpgUej0AwPPxD2h60fQq/view?usp=share_link) and our trained model [[click to download]](https://drive.google.com/file/d/1BpPVHtn5MUYQCleITXrkenhD7ZY3yYHb/view?usp=share_link). To reproduce our experimental result on the example MRI, please (1) dwonloaded model checkpoint and put it at `/src/checkpoints/jmi`, and (2) download the example MRI and put it in a folder (input_dir).
 
 Example:
 ```shell script
-python run_inference.py --input_dir ./test --output_dir ./output --overlap_ratio 0.6
+python run_inference.py --input_dir ./AnyName --output_dir ./output --overlap_ratio 0.6
 ```
 
 ## Docker (use our code as out-of-box tool!) 
