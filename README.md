@@ -14,6 +14,9 @@ We trained a 3D cGAN model to convert a `T1-weighted MRI image (input)` to a `sy
 
 <center><img src="https://github.com/han-liu/SynCT_TcMRgFUS/blob/main/vis.png?raw=true" alt="vis" width="800"></center>
 
+Please check out our manuscript if you are interested in the comparison between the real and synthetic CTs in (1) tFUS planning using Kranion and (2) acoustic simulation using k-wave!
+
+
 If you find our repo useful to your research, please consider citing our works:
 
 ```
@@ -58,7 +61,7 @@ As reported in the paper, the optimal performance was achieved on our validation
 ## Testing
 Two arguments are required (1) input_dir: this specifies where you put your input MR images (in the format of .nii or .nii.gz), and (2) output_dir: a folder to store the output synthetic CTs; this can be a new folder. Optionally, you can adjust the overlapping ratio in the sliding window inference function (default is 0.6). Higher overlapping ratio typically produces better synthetic images, but needs longer inference time. 
 
-We provide an example MRI image [[click to download]](https://drive.google.com/file/d/1wW-MWanj74CYhpgUej0AwPPxD2h60fQq/view?usp=share_link) and our trained model [[click to download]](https://drive.google.com/file/d/1BpPVHtn5MUYQCleITXrkenhD7ZY3yYHb/view?usp=share_link). To run our trained model on the example MRI, please (1) create a folder `/src/checkpoints/jmi` and put the dwonloaded model checkpoint here, and (2) download the example MRI and put it in a folder (input_dir).
+We provide an example MRI image [[click to download]](https://drive.google.com/file/d/1wW-MWanj74CYhpgUej0AwPPxD2h60fQq/view?usp=share_link) and our trained model [[click to download]](https://drive.google.com/file/d/1BpPVHtn5MUYQCleITXrkenhD7ZY3yYHb/view?usp=share_link). To reproduce our experimental result on the example MRI, please (1) create a folder `/src/checkpoints/jmi` and put the dwonloaded model checkpoint here, and (2) download the example MRI and put it in a folder (input_dir).
 
 Example:
 ```shell script
