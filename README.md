@@ -7,7 +7,7 @@ The repository is the official PyTorch implementation of the paper:
 "Synthetic CT Skull Generation for Transcranial MR Imaging–Guided Focused Ultrasound Interventions with Conditional Adversarial Networks". [[paper]](https://arxiv.org/abs/2202.10136) 
 
 The jounal version "Evaluation of Synthetically Generated CT for use in Transcranial
-Focused Ultrasound Procedures" is currently under review. The preprint version is available [here](https://arxiv.org/pdf/2210.14775.pdf), where you will find out more details in implementation and in-depth result analysis.
+Focused Ultrasound Procedures" is now available at Journal of Medical Imaging [[paper]](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-05/055001/Evaluation-of-synthetically-generated-computed-tomography-for-use-in-transcranial/10.1117/1.JMI.10.5.055001.full?SSO=1), where you will find out more details in implementation and in-depth result analysis.
 
 ## Overview
 We trained a 3D cGAN model to convert a `T1-weighted MRI image (input)` to a `synthetic CT image (output)`. Our approach was originally developed for Transcranial MR Imaging–Guided Focused Ultrasound Interventions (TcMRgFUS),  but can also be used as a benchmark for MR-to-CT image synthesis. Please note that our model is 3D and thus avoids the artifacts caused by the intensity inconsistency among slices (typically occur in 2D networks).
@@ -20,11 +20,15 @@ Please check out our manuscript if you are interested in the comparison between 
 If you find our repo useful to your research, please consider citing our works:
 
 ```
-@article{liu2022evaluation,
-  title={Evaluation of Synthetically Generated CT for use in Transcranial Focused Ultrasound Procedures},
+@article{liu2023evaluation,
+  title={Evaluation of synthetically generated computed tomography for use in transcranial focused ultrasound procedures},
   author={Liu, Han and Sigona, Michelle K and Manuel, Thomas J and Chen, Li Min and Dawant, Benoit M and Caskey, Charles F},
-  journal={arXiv preprint arXiv:2210.14775},
-  year={2022}
+  journal={Journal of Medical Imaging},
+  volume={10},
+  number={5},
+  pages={055001--055001},
+  year={2023},
+  publisher={Society of Photo-Optical Instrumentation Engineers}
 }
 
 @inproceedings{liu2022synthetic,
