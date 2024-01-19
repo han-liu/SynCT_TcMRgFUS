@@ -10,7 +10,7 @@ The jounal version "Evaluation of Synthetically Generated CT for use in Transcra
 Focused Ultrasound Procedures" is now available at Journal of Medical Imaging [[paper]](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-05/055001/Evaluation-of-synthetically-generated-computed-tomography-for-use-in-transcranial/10.1117/1.JMI.10.5.055001.full?SSO=1), where you will find out more details in implementation and in-depth result analysis.
 
 ## Overview
-We trained a 3D cGAN model to convert a `T1-weighted MRI image (input)` to a `synthetic CT image (output)`. Our approach was originally developed for Transcranial MR Imaging–Guided Focused Ultrasound Interventions (TcMRgFUS),  but can also be used as a benchmark for MR-to-CT image synthesis. Please note that our model is 3D and thus avoids the artifacts caused by the intensity inconsistency among slices (typically occur in 2D networks).
+We trained a 3D cGAN model to convert a `T1-weighted MRI (input)` to a `synthetic CT (output)`. Our approach was originally developed for Transcranial MR Imaging–Guided Focused Ultrasound Interventions (TcMRgFUS),  but can also be used as a benchmark for MR-to-CT image synthesis. Please note that our model is 3D and thus avoids the artifacts caused by the intensity inconsistency among slices (typically occur in 2D networks).
 
 <center><img src="https://github.com/han-liu/SynCT_TcMRgFUS/blob/main/vis.png?raw=true" alt="vis" width="800"></center>
 
