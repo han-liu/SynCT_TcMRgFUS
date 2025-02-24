@@ -42,7 +42,7 @@ If you find our repo useful to your research, please consider citing our works:
 }
 ```
 
-If you have any questions, feel free to contact han.liu@vanderbilt.edu or open an Issue in this repo. 
+If you have any questions, feel free to contact han.liu@siemens-healthineers.com or open an Issue in this repo. 
 
 ## Prerequisites
 * NVIDIA GPU + CUDA + cuDNN
