@@ -83,7 +83,7 @@ liuh26/syn_ct
 1. download Docker and NVIDIA Container Toolkit.
 2. make inference with the following command:
 ```shell script
-docker run --gpus all --rm -v [input_directory]:/input/:ro -v [output_directory]:/output -it syn_ct
+docker run --gpus all --rm -v [input_directory]:/input/:ro -v [output_directory]:/output liuh26/syn_ct:syn_ct
 ```
 
 where
